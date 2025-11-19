@@ -28,4 +28,8 @@ Configure and test a basic firewall rule on Windows to block inbound traffic on 
 ### 4. Test the Rule
 Used PowerShell to verify the rule:
 ```powershell
-Test-NetConnection -ComputerName localhost -Port 23
+Test-NetConnection -ComputerName localhost -Port 23 
+```
+Expected Result:
+TcpTestSucceeded : False
+Confirms that port 23 is blocked or no service is listening.
