@@ -31,5 +31,6 @@ Used PowerShell to verify the rule:
 Test-NetConnection -ComputerName localhost -Port 23 
 ```
 Expected Result:
-TcpTestSucceeded : False
-Confirms that port 23 is blocked or no service is listening.
+
+- TcpTestSucceeded : False
+- Confirms that port 23 is blocked or no service is listening.
