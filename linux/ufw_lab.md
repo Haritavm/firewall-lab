@@ -67,6 +67,7 @@ Trying 127.0.0.1...
 telnet: Unable to connect to remote host: Connection refused
 SSH Test (should succeed)
 ```
+SSH Test (should succeed)
 ```bash
 ssh kali@localhost
 ```
