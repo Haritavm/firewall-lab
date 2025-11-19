@@ -83,3 +83,7 @@ sudo apt install openssh-server -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
 ```
+### 6. Remove Telnet Rule
+```bash
+sudo ufw delete deny 23/tcp
+```
